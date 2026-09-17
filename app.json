@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Brand Market",
+    "slug": "brand-market",
+    "version": "1.0.7",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.assessment.brandmarket"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#2454C6",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.assessment.brandmarket"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": ["expo-image"]
+  }
+}
